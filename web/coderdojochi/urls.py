@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from tos.views import login
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # # terms of service links
+    # path('login/', login, {}, 'auth_login',),
+    # path('terms-of-service/', include('tos.urls')),
 ]

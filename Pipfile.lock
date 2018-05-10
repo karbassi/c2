@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f3ed00d5a42888a2ce8a2ee95b38f6fc85c3d7f5eb57087eb0b821191e6a8b7d"
+            "sha256": "fc7d9c7bc0d8c16e28eb46a1fd444dfbf13270a2f6833b6f4f012735ebe8b260"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,10 +16,6 @@
         ]
     },
     "default": {
-        "address": {
-            "git": "https://github.com/karbassi/django-address.git",
-            "ref": "django-2.x"
-        },
         "autopep8": {
             "hashes": [
                 "sha256:c7be71ab0cb2f50c9c22c82f0c9acaafc6f57492c3fbfee9790c415005c2b9a5"
@@ -50,6 +46,10 @@
             "index": "pypi",
             "version": "==2.0.3"
         },
+        "django-address": {
+            "git": "https://github.com/karbassi/django-address.git",
+            "ref": "django-2.x"
+        },
         "django-admin-list-filter-dropdown": {
             "hashes": [
                 "sha256:e79856c790224c5a466bf222bb99d5a2a73f5e4ed954cb1b6fcc4a52f078b3b9"
@@ -63,6 +63,10 @@
             ],
             "index": "pypi",
             "version": "==2.0.0"
+        },
+        "django-tos": {
+            "git": "https://github.com/karbassi/django-tos.git",
+            "ref": "django-2.x"
         },
         "gunicorn": {
             "hashes": [
@@ -83,11 +87,11 @@
         },
         "phonenumberslite": {
             "hashes": [
-                "sha256:676374b0bb6dc1186aec971fc202662334337f8b27a756e7dda79af6233c54a9",
-                "sha256:c3c66e6aefce0a406868e06959579b2f46060a0e5302886bbfb79ff3f1d013f5"
+                "sha256:9358d8fb745fa76360a80e9ebc621b0e8f855767f8f2e0308d988a6609103e9a",
+                "sha256:dd18e7c3a7858fd627b800ee4e4ccf501a83b0820d258e98832ed3aec5678ba0"
             ],
             "index": "pypi",
-            "version": "==8.9.4"
+            "version": "==8.9.5"
         },
         "psycopg2-binary": {
             "hashes": [

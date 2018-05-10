@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # installed apps
+    'tos',
     'address',
     'phonenumber_field',
     'django_admin_listfilter_dropdown',
